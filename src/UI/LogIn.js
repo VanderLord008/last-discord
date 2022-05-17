@@ -37,7 +37,7 @@ const LogIn = (props) => {
       <button type="submit">Login</button>
       </div>
       <div className={classes.infoText}>
-        Need an account? <span onClick={props.signUpShower}>Register</span>
+        Need an account? <span onClick={props.signUpShower}>Register Now</span>
       </div>
     </form>
   );

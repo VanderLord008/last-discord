@@ -36,14 +36,13 @@ const MainPage = () => {
     setShowHomeLayout(false);
   };
   return (
-    <div className={classes.wrapper}>
+    <><div className={classes.wrapper}>
       <ServerBar showHomeLayout={homeLayout} showServerLayout={serverLayout} />
       {showHomeLayout && <FriendsBar />}
       {showHomeLayout && <PrivareChat />}
       {showHomeLayout === false && <ChannelBar />}
       {showHomeLayout === false && <ServerChat />}
-      <button onClick={signOut}>logout</button>
-    </div>
+    </div><button onClick={signOut}>Logout</button></>
   );
 };
 

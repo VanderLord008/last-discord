@@ -67,7 +67,6 @@ const ServerBar = (props) => {
   //     }
   //   })
   // })
-
   //   }, [userEmail]);
 
   // await _users.doc(id).get().then((doc){
@@ -81,8 +80,9 @@ const ServerBar = (props) => {
 
   return (
     <div className={classes.container}>
+      <div className="container__top"></div>
       <div className={classes.addIcon} onClick={props.showHomeLayout}>
-        dis
+        T
       </div>
       <div className={classes.addIcon} onClick={addServerHandler}>
         +

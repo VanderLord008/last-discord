@@ -1,6 +1,6 @@
 .container{
-    background-color: #292b2f;
+    background-image: linear-gradient(to right,rgb(166, 200, 218), rgb(189, 127, 234));
     height: 100vh;
-    width: 15em;
-    color: white;
+    width: 8em;
+    color: rgb(8, 8, 8);
 }

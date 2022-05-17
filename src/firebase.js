@@ -4,6 +4,7 @@ import "firebase/compat/firestore";
 
 // const firebaseConfig = {
 //     apiKey: "AIzaSyDtqAXvd9zhHnEGPE8Z03h8RSnR9zbEkqA",
+
 //     authDomain: "discord-7e548.firebaseapp.com",
 //     projectId: "discord-7e548",
 //     storageBucket: "discord-7e548.appspot.com",
@@ -13,13 +14,13 @@ import "firebase/compat/firestore";
 //   };
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD5oiE0Df5UeLT7vNM1mZv755BF8YioHD0",
-  authDomain: "last-discord.firebaseapp.com",
-  projectId: "last-discord",
-  storageBucket: "last-discord.appspot.com",
-  messagingSenderId: "625359749730",
-  appId: "1:625359749730:web:6d01c8ce70ce59e23f073b",
-  measurementId: "G-5N3SMDD27Z"
+  apiKey: "AIzaSyCCYIzfEp5LHIJgNySRN1qHwQi4_pQUodU",
+  authDomain: "talkiify.firebaseapp.com",
+  projectId: "talkiify",
+  storageBucket: "talkiify.appspot.com",
+  messagingSenderId: "80373667157",
+  appId: "1:80373667157:web:c5b0d4ce0f39a2523c4bdc",
+  measurementId: "G-KBXG0ER62D"
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
