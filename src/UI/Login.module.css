@@ -8,8 +8,7 @@ p{
 
 /* // */
 
-button{
-    width: 30%;
+
     border: none;
   background-color: #58f2e8;
   padding: 10px;
@@ -27,5 +26,5 @@ button{
 span{
     color: #58f2e8;
     cursor: pointer;
-        margin: 2px;
+
 }

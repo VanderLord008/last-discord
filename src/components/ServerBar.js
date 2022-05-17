@@ -42,32 +42,29 @@ const ServerBar = (props) => {
       );
   }, [userEmail, sad]);
 
-  //   const serverRenderer=  (doc)=>{
-  // console.log(doc.data());
-  //  setServers({
-  //   key: doc.data().serverId,
-  //   id: doc.data().serverId,
-  //   serverName: doc.data().serverName,
-  //   serverId: doc.data().serverId,
+    const serverRenderer=  (doc)=>{
+  console.log(doc.data());
+   setServers({
+    key: doc.data().serverId,
+    id: doc.data().serverId,
+    serverName: doc.data().serverName,
+    serverId: doc.data().serverId,
 
-  // }
-  // )
-  // console.log('servers now are');
-  // console.log(servers);
-  //   }
+  }
+  )
+  console.log('servers now are');
+  console.log(servers);
+    }
 
-  //   useEffect(() => {
+    useEffect(() => {
 
-  // db.collection("servers").get().then((snapshot)=>{
-  //   snapshot.docs.map((doc)=>{
-  //     if(doc.data().createdBy===userEmail){
+  db.collection("servers").get().then((snapshot)=>{
+    snapshot.docs.map((doc)=>{
+      if(doc.data().createdBy===userEmail){
 
-  //       serverRenderer(doc)
+        serverRenderer(doc)
 
-  //     }
-  //   })
-  // })
-  //   }, [userEmail]);
+
 
   // await _users.doc(id).get().then((doc){
   //   if(doc.exists){
