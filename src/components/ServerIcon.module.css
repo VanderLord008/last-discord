@@ -1,6 +1,6 @@
 .addIcon{
     background-color: #2f3135;
-    border-radius: 50%;
+    border-radius: 38%;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -10,5 +10,5 @@
 }
 
 .addIcon:hover{
-    background-color: #5865f2;
+    background-color: #293291;
 }

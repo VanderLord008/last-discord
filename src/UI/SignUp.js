@@ -11,7 +11,10 @@ const SignUp = (props) => {
 
     auth.createUserWithEmailAndPassword(email, password).catch((error) => {
       const errorCode = error.code;
+      console.log(errorCode);
+      
       const errorMessage = error.message;
+      console.log(errorMessage)
       // ..
     });
   };
@@ -21,7 +24,7 @@ const SignUp = (props) => {
       <input placeholder="email"></input>
       <p>Password</p>
       <input placeholder="password"></input>
-      <button type="submit">sign Up</button>
+      <button type="submit">Sign Up</button>
       <span onClick={props.signUpShower}>already have an account?</span>
     </form>
   );

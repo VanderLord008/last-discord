@@ -64,11 +64,7 @@ const ServerBar = (props) => {
 
         serverRenderer(doc)
 
-      }
-    })
-  })
 
-    }, [userEmail]);
 
   // await _users.doc(id).get().then((doc){
   //   if(doc.exists){
@@ -81,8 +77,9 @@ const ServerBar = (props) => {
 
   return (
     <div className={classes.container}>
+      <div className="container__top"></div>
       <div className={classes.addIcon} onClick={props.showHomeLayout}>
-        dis
+        T
       </div>
       <div className={classes.addIcon} onClick={addServerHandler}>
         +

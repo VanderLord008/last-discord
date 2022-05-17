@@ -48,7 +48,7 @@ const [buttonState, setButtonState] = useState(false)
       >{!buttonState ? `login` : `processing`}</button>
       </div>
       <div className={classes.infoText}>
-        Need an account? <span onClick={props.signUpShower}>Register</span>
+        Need an account? <span onClick={props.signUpShower}>Register Now</span>
       </div>
     </form>
   );

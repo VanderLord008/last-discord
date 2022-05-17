@@ -1,6 +1,10 @@
 .container{
-    background-color: #36393f;
+    background-image: linear-gradient(to bottom right, rgb(190, 219, 233), rgb(162, 161, 224), rgb(211, 177, 235));
+    font-family: 'Source Sans Pro';
+    padding: 1em 1em 1em;
     height: 100vh;
     width: 100%;
-    color: white;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    line-height: 22px;
 } 
